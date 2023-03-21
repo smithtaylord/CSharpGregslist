@@ -5,8 +5,9 @@ using System.Threading.Tasks;
 
 namespace CSharpGregslist.Models
 {
-    public class Houses
+    public class House
     {
+        public int Id { get; set; }
         public int Bedrooms { get; set; }
         public int Bathrooms { get; set; }
         public int Year { get; set; } = 1900;
